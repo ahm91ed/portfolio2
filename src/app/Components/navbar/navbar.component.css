@@ -1,0 +1,14 @@
+
+.myStyle{
+    
+    background-color: var(--main-color);
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 5px;
+}
+
+a{
+    font-size: 20px;
+    font-weight: 400;
+}

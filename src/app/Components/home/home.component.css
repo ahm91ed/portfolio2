@@ -1,0 +1,76 @@
+
+.nameStyle
+{
+    background-color: var(--main-color);
+}
+
+.special 
+{
+    color: var(--main-color);
+}
+
+
+h2{
+    margin-top: 1.5rem;
+}
+
+
+.outer-frame
+{
+    width: 50%;
+    border: 10px solid gray;
+    border-radius: 10px;
+  
+}
+
+.profile-picture
+{
+    position: relative;
+    top: 10%;
+    left: 20%;
+    overflow: hidden;
+
+}
+
+.profile-picture:hover  img
+{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
+figure img
+{
+    transition: all .7s;
+}
+
+
+figure 
+{
+    position: relative;
+}
+
+
+.myLinks{
+    position: absolute;
+    right: -50%;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: all .7s;
+
+}
+
+figure:hover .myLinks
+{
+    right: 10px;
+}
+
+
+.myLinks a:hover
+{
+    color: white;
+
+}
+
+
+

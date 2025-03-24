@@ -1,0 +1,24 @@
+
+.skills-items{
+    border:  #000000 solid 2px;
+    border-radius: 4px;
+    transition: all .5s;
+}
+
+.skills-items:hover{
+    border: var(--main-color) solid 2px;
+    box-shadow: 1px 1px 3px var(--second-color);
+    transform: scale(1.05) rotate(2deg);
+}
+
+.title {
+    width: 50%;
+}
+.certificate{
+    width: 40%;
+    text-align: right;
+}
+
+.certificate img{
+    width: 40%;
+}
